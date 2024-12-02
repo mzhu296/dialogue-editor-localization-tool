@@ -1,0 +1,882 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a69ff5ed214494b835d86b8438ac53, type: 3}
+  m_Name: Dialogue Container SO - Example01
+  m_EditorClassIdentifier: 
+  NodeLinkDatas:
+  - BaseNodeGuid: 348eae8e-cd72-4d51-877d-93d1e6e141bd
+    BasePortName: Output
+    TargetNodeGuid: 24ee1e21-b7b8-479e-8c23-e007e52d075c
+    TargetPortName: Input
+  - BaseNodeGuid: 155f7435-f9a6-43d7-be86-6e40be063e4c
+    BasePortName: Output
+    TargetNodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    TargetPortName: Input
+  - BaseNodeGuid: d1d1635b-4f01-41cb-a034-f46a8b46117e
+    BasePortName: Output
+    TargetNodeGuid: a1fbdda5-3873-4e3a-9c97-aed0b7cafa32
+    TargetPortName: Input
+  - BaseNodeGuid: 70987ef9-878d-41dd-81bc-fe5911a8d545
+    BasePortName: Output
+    TargetNodeGuid: 201f2ac7-bcd2-4c9a-bd48-38d9c9729e99
+    TargetPortName: Input
+  - BaseNodeGuid: 24ee1e21-b7b8-479e-8c23-e007e52d075c
+    BasePortName: False
+    TargetNodeGuid: e0caaab2-0d0a-439f-948e-3a8a0c5312e0
+    TargetPortName: Input
+  - BaseNodeGuid: 24ee1e21-b7b8-479e-8c23-e007e52d075c
+    BasePortName: True
+    TargetNodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    TargetPortName: Input
+  - BaseNodeGuid: 0d97e2a0-d28f-4b66-93f6-f5ebf29720ad
+    BasePortName: Output
+    TargetNodeGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+    TargetPortName: Input
+  - BaseNodeGuid: 985560e3-1e02-4acd-9740-c26a89534ac6
+    BasePortName: Output
+    TargetNodeGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+    TargetPortName: Input
+  - BaseNodeGuid: 9916fa84-30a7-4b60-9c52-6aa0264e336e
+    BasePortName: Output
+    TargetNodeGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+    TargetPortName: Input
+  - BaseNodeGuid: 7895f448-6f0b-4f9e-8889-05462c7c59ef
+    BasePortName: Output
+    TargetNodeGuid: f96f7467-00b2-4591-9fbd-f298a6975d32
+    TargetPortName: Input
+  - BaseNodeGuid: 89971536-796f-4ccd-8c93-f494eb120eaf
+    BasePortName: Output
+    TargetNodeGuid: 11efc365-1ab7-4426-8498-c84578539412
+    TargetPortName: Input
+  - BaseNodeGuid: e59f0b94-8d72-4f83-91ac-67021e9dbcc8
+    BasePortName: Output
+    TargetNodeGuid: 09de0993-12b6-4852-9321-4da731ce7cc0
+    TargetPortName: Input
+  - BaseNodeGuid: a5f97d90-6d1c-4846-9b67-a6f765d3f47f
+    BasePortName: Output
+    TargetNodeGuid: 91e699b4-9aeb-4acf-b445-47130e07bd12
+    TargetPortName: Input
+  - BaseNodeGuid: 08cc6202-96de-49e5-9d2f-283d4c682fce
+    BasePortName: Output
+    TargetNodeGuid: 9c190703-00d7-43d8-bfea-879288942a86
+    TargetPortName: Input
+  - BaseNodeGuid: 5b64f1ec-96ba-4767-a561-ba9163a75f96
+    BasePortName: Output
+    TargetNodeGuid: 724ff35b-bce2-4bfc-8ec0-0ea2a57a2ba9
+    TargetPortName: Input
+  - BaseNodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    BasePortName: ebe3aad5-27e5-4b54-af0e-3ffbbeb5a747
+    TargetNodeGuid: 985560e3-1e02-4acd-9740-c26a89534ac6
+    TargetPortName: Input
+  - BaseNodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    BasePortName: a272c8b0-6e47-4fe4-9a99-40eb3470b8ec
+    TargetNodeGuid: 9916fa84-30a7-4b60-9c52-6aa0264e336e
+    TargetPortName: Input
+  - BaseNodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    BasePortName: d7d4887f-a48e-4fa2-a9ca-698674802f3f
+    TargetNodeGuid: 0d97e2a0-d28f-4b66-93f6-f5ebf29720ad
+    TargetPortName: Input
+  - BaseNodeGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+    BasePortName: a2273f19-50dc-4d69-bc8e-1fb422c5b482
+    TargetNodeGuid: 89971536-796f-4ccd-8c93-f494eb120eaf
+    TargetPortName: Input
+  - BaseNodeGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+    BasePortName: da95b0a1-4574-4869-bd84-db964281e8b0
+    TargetNodeGuid: 08cc6202-96de-49e5-9d2f-283d4c682fce
+    TargetPortName: Input
+  - BaseNodeGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+    BasePortName: 4d19901a-ac0b-4411-85d8-915cd9740840
+    TargetNodeGuid: e59f0b94-8d72-4f83-91ac-67021e9dbcc8
+    TargetPortName: Input
+  - BaseNodeGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+    BasePortName: d35f0855-6b68-4823-a247-c8b801649651
+    TargetNodeGuid: a5f97d90-6d1c-4846-9b67-a6f765d3f47f
+    TargetPortName: Input
+  - BaseNodeGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+    BasePortName: 7ab3554c-7085-4e85-9b3d-85c48076fab2
+    TargetNodeGuid: 7895f448-6f0b-4f9e-8889-05462c7c59ef
+    TargetPortName: Input
+  - BaseNodeGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+    BasePortName: dd22b183-5828-4984-acba-93550bfec7b9
+    TargetNodeGuid: 5b64f1ec-96ba-4767-a561-ba9163a75f96
+    TargetPortName: Input
+  - BaseNodeGuid: f96f7467-00b2-4591-9fbd-f298a6975d32
+    BasePortName: Continue
+    TargetNodeGuid: 075041e5-2a81-4dd7-98c6-bc26fc9f368b
+    TargetPortName: Input
+  - BaseNodeGuid: 724ff35b-bce2-4bfc-8ec0-0ea2a57a2ba9
+    BasePortName: Continue
+    TargetNodeGuid: 075041e5-2a81-4dd7-98c6-bc26fc9f368b
+    TargetPortName: Input
+  - BaseNodeGuid: 11efc365-1ab7-4426-8498-c84578539412
+    BasePortName: Continue
+    TargetNodeGuid: d1d1635b-4f01-41cb-a034-f46a8b46117e
+    TargetPortName: Input
+  - BaseNodeGuid: 9c190703-00d7-43d8-bfea-879288942a86
+    BasePortName: Continue
+    TargetNodeGuid: 075041e5-2a81-4dd7-98c6-bc26fc9f368b
+    TargetPortName: Input
+  - BaseNodeGuid: 09de0993-12b6-4852-9321-4da731ce7cc0
+    BasePortName: Continue
+    TargetNodeGuid: 70987ef9-878d-41dd-81bc-fe5911a8d545
+    TargetPortName: Input
+  - BaseNodeGuid: 91e699b4-9aeb-4acf-b445-47130e07bd12
+    BasePortName: Continue
+    TargetNodeGuid: 70987ef9-878d-41dd-81bc-fe5911a8d545
+    TargetPortName: Input
+  - BaseNodeGuid: e0caaab2-0d0a-439f-948e-3a8a0c5312e0
+    BasePortName: Continue
+    TargetNodeGuid: 155f7435-f9a6-43d7-be86-6e40be063e4c
+    TargetPortName: Input
+  EndDatas:
+  - NodeGuid: 075041e5-2a81-4dd7-98c6-bc26fc9f368b
+    Position: {x: 3111, y: 307.5}
+    EndNodeType:
+      Value: 4
+  - NodeGuid: a1fbdda5-3873-4e3a-9c97-aed0b7cafa32
+    Position: {x: 3297, y: 48.5}
+    EndNodeType:
+      Value: 1
+  - NodeGuid: 201f2ac7-bcd2-4c9a-bd48-38d9c9729e99
+    Position: {x: 3404, y: 700}
+    EndNodeType:
+      Value: 1
+  StartDatas:
+  - NodeGuid: 348eae8e-cd72-4d51-877d-93d1e6e141bd
+    Position: {x: 16, y: 342}
+  EventDatas:
+  - NodeGuid: 155f7435-f9a6-43d7-be86-6e40be063e4c
+    Position: {x: 750.5, y: 414}
+    EventData_StringModifiers:
+    - StringEventText:
+        Value: didWeTalk
+      Number:
+        Value: 0
+      StringEventModifierType:
+        Value: 1
+    Container_DialogueEventSOs: []
+  - NodeGuid: d1d1635b-4f01-41cb-a034-f46a8b46117e
+    Position: {x: 2948.5, y: -92.5}
+    EventData_StringModifiers:
+    - StringEventText:
+        Value: money
+      Number:
+        Value: 10
+      StringEventModifierType:
+        Value: 3
+    - StringEventText:
+        Value: health
+      Number:
+        Value: 100
+      StringEventModifierType:
+        Value: 3
+    Container_DialogueEventSOs: []
+  - NodeGuid: 70987ef9-878d-41dd-81bc-fe5911a8d545
+    Position: {x: 2990.5, y: 694}
+    EventData_StringModifiers:
+    - StringEventText:
+        Value: money
+      Number:
+        Value: 100
+      StringEventModifierType:
+        Value: 3
+    - StringEventText:
+        Value: health
+      Number:
+        Value: 10
+      StringEventModifierType:
+        Value: 3
+    Container_DialogueEventSOs:
+    - DialogueEventSO: {fileID: 11400000, guid: 13f0abbae245b86438998d95e12d7bd2,
+        type: 2}
+    - DialogueEventSO: {fileID: 11400000, guid: 4f55845f90e16d54b9ad6c3d5549d141,
+        type: 2}
+  BranchDatas:
+  - NodeGuid: 24ee1e21-b7b8-479e-8c23-e007e52d075c
+    Position: {x: 118, y: 342}
+    trueGuidNode: b02411ed-29f8-4b8a-862b-12176fb6db81
+    falseGuidNode: e0caaab2-0d0a-439f-948e-3a8a0c5312e0
+    EventData_StringConditions:
+    - StringEventText:
+        Value: didWeTalk
+      Number:
+        Value: 0
+      StringEventConditionType:
+        Value: 1
+  DialogueDatas:
+  - NodeGuid: f96f7467-00b2-4591-9fbd-f298a6975d32
+    Position: {x: 2630.5, y: 239.5}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 5259b3e5-6d26-4d8f-a1ac-6d527bb74d74
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: Not that we know of. But the lab data might have clues.
+          We need someone to go into the research facility and retrieve those records
+      - LanguageType: 2
+        LanguageGenericType: "\u636E\u6211\u4EEC\u6240\u77E5\uFF0C\u6CA1\u6709\u3002\u4E0D\u8FC7\u5B9E\u9A8C\u5BA4\u7684\u6570\u636E\u53EF\u80FD\u6709\u7EBF\u7D22\u3002\u6211\u4EEC\u9700\u8981\u6709\u4EBA\u8FDB\u5165\u7814\u7A76\u8BBE\u65BD\uFF0C\u53D6\u56DE\u90A3\u4E9B\u8BB0\u5F55\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "No que sepamos. Pero los datos del laboratorio podr\xEDan
+          tener pistas. Necesitamos que alguien entre en la instalaci\xF3n de investigaci\xF3n
+          y recupere esos registros."
+      - LanguageType: 4
+        LanguageGenericType: "Pas que nous sachions. Mais les donn\xE9es du laboratoire
+          pourraient contenir des indices. Nous avons besoin de quelqu'un pour aller
+          dans l'installation de recherche et r\xE9cup\xE9rer ces dossiers."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: 724ff35b-bce2-4bfc-8ec0-0ea2a57a2ba9
+    Position: {x: 2625.5, y: 475.5}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: b24abad3-f1d0-4ed0-9ab9-24de86f514a3
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "Command underestimated the threat. We all did. Now
+          we\u2019re paying the price. But regrets won\u2019t help us now\u2014action
+          will"
+      - LanguageType: 2
+        LanguageGenericType: "\u6307\u6325\u90E8\u4F4E\u4F30\u4E86\u5A01\u80C1\u3002\u6211\u4EEC\u6240\u6709\u4EBA\u90FD\u4F4E\u4F30\u4E86\u3002\u73B0\u5728\u6211\u4EEC\u5728\u4E3A\u6B64\u4ED8\u51FA\u4EE3\u4EF7\u3002\u4F46\u540E\u6094\u65E0\u6D4E\u4E8E\u4E8B\u2014\u2014\u884C\u52A8\u624D\u80FD\u6539\u53D8\u5C40\u9762\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "El mando subestim\xF3 la amenaza. Todos lo hicimos.
+          Ahora estamos pagando el precio. Pero el arrepentimiento no nos ayudar\xE1
+          ahora, la acci\xF3n s\xED."
+      - LanguageType: 4
+        LanguageGenericType: "Le Commandement a sous-estim\xE9 la menace. Nous l'avons
+          tous fait. Maintenant, nous payons le prix. Mais les regrets ne nous aideront
+          pas - l'action, oui."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: 11efc365-1ab7-4426-8498-c84578539412
+    Position: {x: 2548, y: -277}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 708c8bdd-aba4-451e-b15c-8487c3980459
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "Good. There\u2019s a unit pinned down near the old
+          hangar. Get them back here\u2014they\u2019re our only hope for reinforcing
+          the east perimeter"
+      - LanguageType: 2
+        LanguageGenericType: "\u5F88\u597D\u3002\u6709\u4E00\u4E2A\u5C0F\u961F\u88AB\u56F0\u5728\u65E7\u673A\u5E93\u9644\u8FD1\u3002\u628A\u4ED6\u4EEC\u5E26\u56DE\u6765\u2014\u2014\u4ED6\u4EEC\u662F\u6211\u4EEC\u52A0\u5F3A\u4E1C\u90E8\u9632\u7EBF\u7684\u552F\u4E00\u5E0C\u671B\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Bien. Hay una unidad atrapada cerca del viejo hangar.
+          Tr\xE1elos de vuelta aqu\xED, son nuestra \xFAnica esperanza de reforzar
+          el per\xEDmetro este."
+      - LanguageType: 4
+        LanguageGenericType: "Bien. Il y a une unit\xE9 coinc\xE9e pr\xE8s de l'ancien
+          hangar. Ramenez-les ici - ils sont notre seul espoir de renforcer le p\xE9rim\xE8tre
+          est."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: 9c190703-00d7-43d8-bfea-879288942a86
+    Position: {x: 2543, y: -3.5}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: bb66b9a5-5950-417d-988c-78abd0b82386
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "The drops are scattered across three sectors\u2014Sector
+          A, B, and C. Each one contains crucial supplies. Get there, secure them,
+          and hold until our backup arrives"
+      - LanguageType: 2
+        LanguageGenericType: "\u8865\u7ED9\u5206\u6563\u5728\u4E09\u4E2A\u533A\u57DF\u2014\u2014A\u533A\u3001B\u533A\u548CC\u533A\u3002\u6BCF\u4E2A\u533A\u57DF\u90FD\u6709\u91CD\u8981\u7269\u8D44\u3002\u53BB\u90A3\u91CC\uFF0C\u786E\u4FDD\u5B83\u4EEC\u7684\u5B89\u5168\uFF0C\u5E76\u575A\u6301\u5230\u6211\u4EEC\u7684\u589E\u63F4\u5230\u8FBE\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Los suministros est\xE1n dispersos en tres sectores:
+          Sector A, B y C. Cada uno contiene suministros cruciales. Ve all\xED, aseg\xFAralos
+          y mantente hasta que llegue nuestro respaldo."
+      - LanguageType: 4
+        LanguageGenericType: "Les largages sont r\xE9partis sur trois secteurs -
+          Secteur A, B et C. Chacun contient des fournitures cruciales. Rendez-vous
+          l\xE0-bas, s\xE9curisez-les, et tenez bon jusqu'\xE0 ce que nos renforts
+          arrivent."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: 91e699b4-9aeb-4acf-b445-47130e07bd12
+    Position: {x: 2623, y: 942}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 39cb0a6a-3e9f-4b7b-b61b-e73b17c1ea8f
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "Those people are as good as dead without you. They\u2019re
+          in the medical bay, but you\u2019ll need to clear a path through the maintenance
+          tunnels to get to them"
+      - LanguageType: 2
+        LanguageGenericType: "\u6CA1\u6709\u4F60\u90A3\u4E9B\u4EBA\u5C31\u6B7B\u5B9A\u4E86\u3002\u4ED6\u4EEC\u5728\u533B\u7597\u533A\uFF0C\u4F46\u4F60\u9700\u8981\u901A\u8FC7\u7EF4\u62A4\u96A7\u9053\u4E3A\u4ED6\u4EEC\u5F00\u8F9F\u4E00\u6761\u9053\u8DEF\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Esas personas est\xE1n tan buenas como muertas sin
+          ti. Est\xE1n en la bah\xEDa m\xE9dica, pero tendr\xE1s que despejar un
+          camino a trav\xE9s de los t\xFAneles de mantenimiento para llegar a ellos."
+      - LanguageType: 4
+        LanguageGenericType: "Ces gens sont comme morts sans vous. Ils sont dans
+          l'infirmerie, mais vous devrez d\xE9gager un chemin \xE0 travers les tunnels
+          de maintenance pour les atteindre."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: e0caaab2-0d0a-439f-948e-3a8a0c5312e0
+    Position: {x: 465.5, y: 414}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 580a18bb-f1cc-483a-932b-94084edd9b7b
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: 'Trooper! '
+      - LanguageType: 2
+        LanguageGenericType: "\u58EB\u5175\uFF01"
+      - LanguageType: 3
+        LanguageGenericType: "\xA1Soldado!"
+      - LanguageType: 4
+        LanguageGenericType: 'Soldat ! '
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    - ID:
+        Value: 2
+      GuidID:
+        Value: c788b87d-b53c-469b-80df-c856fcedf62e
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: You made it just in time
+      - LanguageType: 2
+        LanguageGenericType: "\u4F60\u6765\u5F97\u6B63\u662F\u65F6\u5019\u3002"
+      - LanguageType: 3
+        LanguageGenericType: 'Llegaste justo a tiempo. '
+      - LanguageType: 4
+        LanguageGenericType: "Vous arrivez juste \xE0 temps."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  - NodeGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    Position: {x: 1098.5, y: 341}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: c41cda58-e79b-4936-8930-eb6ff42393ee
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: The situation here is hanging by a thread
+      - LanguageType: 2
+        LanguageGenericType: "\u8FD9\u91CC\u7684\u60C5\u51B5\u5C8C\u5C8C\u53EF\u5371\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "La situaci\xF3n aqu\xED est\xE1 colgando de un hilo."
+      - LanguageType: 4
+        LanguageGenericType: La situation ici est sur le point de s'effondrer.
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports:
+    - PortGuid: ebe3aad5-27e5-4b54-af0e-3ffbbeb5a747
+      InputGuid: 985560e3-1e02-4acd-9740-c26a89534ac6
+      OutputGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    - PortGuid: a272c8b0-6e47-4fe4-9a99-40eb3470b8ec
+      InputGuid: 9916fa84-30a7-4b60-9c52-6aa0264e336e
+      OutputGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+    - PortGuid: d7d4887f-a48e-4fa2-a9ca-698674802f3f
+      InputGuid: 0d97e2a0-d28f-4b66-93f6-f5ebf29720ad
+      OutputGuid: b02411ed-29f8-4b8a-862b-12176fb6db81
+  - NodeGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+    Position: {x: 1858.5, y: -6}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: a23c8bba-57e1-42db-8a3c-312dee24b71f
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: If we can regroup the scattered squads and secure the
+          supply drops, we might just survive the next few hours.
+      - LanguageType: 2
+        LanguageGenericType: "\u5982\u679C\u6211\u4EEC\u80FD\u91CD\u65B0\u96C6\u7ED3\u5206\u6563\u7684\u5C0F\u961F\u5E76\u786E\u4FDD\u8865\u7ED9\u6295\u653E\uFF0C\u6211\u4EEC\u6216\u8BB8\u80FD\u71AC\u8FC7\u63A5\u4E0B\u6765\u7684\u51E0\u4E2A\u5C0F\u65F6\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Si logramos reagrupar a los escuadrones dispersos y
+          asegurar las entregas de suministros, podr\xEDamos sobrevivir las pr\xF3ximas
+          horas."
+      - LanguageType: 4
+        LanguageGenericType: "Si nous pouvons regrouper les \xE9quipes dispers\xE9es
+          et s\xE9curiser les largages de fournitures, nous pourrions survivre aux
+          prochaines heures."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports:
+    - PortGuid: a2273f19-50dc-4d69-bc8e-1fb422c5b482
+      InputGuid: 89971536-796f-4ccd-8c93-f494eb120eaf
+      OutputGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+    - PortGuid: da95b0a1-4574-4869-bd84-db964281e8b0
+      InputGuid: 08cc6202-96de-49e5-9d2f-283d4c682fce
+      OutputGuid: 309d3731-a3a8-4b30-9311-4ea4dc432769
+  - NodeGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+    Position: {x: 1863, y: 343}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 52e1c9fe-d5f6-41c9-ad93-8241c86222a8
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: By the time we responded, the infection had already
+          spread to our frontline troopers. Some kind of bio-weapon, engineered to
+          reanimate the dead.
+      - LanguageType: 2
+        LanguageGenericType: "\u5F53\u6211\u4EEC\u4F5C\u51FA\u53CD\u5E94\u65F6\uFF0C\u611F\u67D3\u5DF2\u7ECF\u8513\u5EF6\u5230\u524D\u7EBF\u7684\u58EB\u5175\u3002\u4E00\u79CD\u751F\u5316\u6B66\u5668\uFF0C\u88AB\u8BBE\u8BA1\u7528\u6765\u8BA9\u6B7B\u8005\u590D\u751F\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Cuando respondimos, la infecci\xF3n ya se hab\xEDa
+          propagado a nuestros soldados en la l\xEDnea del frente. Alg\xFAn tipo
+          de arma biol\xF3gica, dise\xF1ada para reanimar a los muertos."
+      - LanguageType: 4
+        LanguageGenericType: "Quand nous avons r\xE9agi, l'infection s'\xE9tait d\xE9j\xE0
+          propag\xE9e \xE0 nos troupes de premi\xE8re ligne. Une sorte d'arme biologique,
+          con\xE7ue pour r\xE9animer les morts."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports:
+    - PortGuid: 7ab3554c-7085-4e85-9b3d-85c48076fab2
+      InputGuid: 7895f448-6f0b-4f9e-8889-05462c7c59ef
+      OutputGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+    - PortGuid: dd22b183-5828-4984-acba-93550bfec7b9
+      InputGuid: 5b64f1ec-96ba-4767-a561-ba9163a75f96
+      OutputGuid: b21dd2ce-7860-4e5a-a7d4-7eab504179e8
+  - NodeGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+    Position: {x: 1862.5, y: 624.5}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: fcb5a58c-4e27-459c-b276-b572d29715a5
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "You\u2019ve got options, trooper. We need someone to
+          push through the west barricade and get the shield generator online\u2014that
+          will buy us time. We also have reports of survivors trapped in the medical
+          bay. Your call. Which mission do you want"
+      - LanguageType: 2
+        LanguageGenericType: "\u4F60\u6709\u9009\u62E9\uFF0C\u58EB\u5175\u3002\u6211\u4EEC\u9700\u8981\u6709\u4EBA\u7A81\u7834\u897F\u4FA7\u7684\u8DEF\u969C\u5E76\u542F\u52A8\u62A4\u76FE\u53D1\u751F\u5668\u2014\u2014\u90A3\u6837\u53EF\u4EE5\u4E3A\u6211\u4EEC\u4E89\u53D6\u65F6\u95F4\u3002\u6211\u4EEC\u8FD8\u6536\u5230\u62A5\u544A\u8BF4\u6709\u5E78\u5B58\u8005\u88AB\u56F0\u5728\u533B\u7597\u533A\u3002\u4F60\u6765\u51B3\u5B9A\uFF0C\u4F60\u60F3\u6267\u884C\u54EA\u4E2A\u4EFB\u52A1\uFF1F"
+      - LanguageType: 3
+        LanguageGenericType: "Tienes opciones, soldado. Necesitamos a alguien que
+          atraviese la barricada oeste y ponga en funcionamiento el generador de
+          escudos; eso nos dar\xE1 tiempo. Tambi\xE9n tenemos informes de sobrevivientes
+          atrapados en la bah\xEDa m\xE9dica. T\xFA decides. \xBFQu\xE9 misi\xF3n
+          quieres?"
+      - LanguageType: 4
+        LanguageGenericType: "Vous avez le choix, soldat. Nous avons besoin de quelqu'un
+          pour franchir la barricade ouest et remettre en ligne le g\xE9n\xE9rateur
+          de bouclier - cela nous fera gagner du temps. Nous avons \xE9galement des
+          rapports de survivants pi\xE9g\xE9s dans l'infirmerie. \xC0 vous de choisir.
+          Quelle mission voulez-vous ?"
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports:
+    - PortGuid: 4d19901a-ac0b-4411-85d8-915cd9740840
+      InputGuid: e59f0b94-8d72-4f83-91ac-67021e9dbcc8
+      OutputGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+    - PortGuid: d35f0855-6b68-4823-a247-c8b801649651
+      InputGuid: a5f97d90-6d1c-4846-9b67-a6f765d3f47f
+      OutputGuid: ab7140c1-4c16-42e8-a394-0f4bf2661414
+  - NodeGuid: 09de0993-12b6-4852-9321-4da731ce7cc0
+    Position: {x: 2611, y: 693}
+    DialogueData_Names:
+    - ID:
+        Value: 0
+      CharacterName:
+        Value: NPC General
+    DialogueData_Texts:
+    - ID:
+        Value: 1
+      GuidID:
+        Value: 27cf1cbf-3cd0-4797-91f7-bc84ed10a3a3
+      Text:
+      - LanguageType: 1
+        LanguageGenericType: "Good. Head to the west barricade. It\u2019s crawling
+          with undead, so be prepared. If we lose the generator, we lose everything"
+      - LanguageType: 2
+        LanguageGenericType: "\u5F88\u597D\u3002\u524D\u5F80\u897F\u4FA7\u8DEF\u969C\u3002\u90A3\u91CC\u5230\u5904\u90FD\u662F\u4EA1\u7075\uFF0C\u6240\u4EE5\u505A\u597D\u51C6\u5907\u3002\u5982\u679C\u6211\u4EEC\u5931\u53BB\u62A4\u76FE\u53D1\u751F\u5668\uFF0C\u4E00\u5207\u5C31\u5B8C\u4E86\u3002"
+      - LanguageType: 3
+        LanguageGenericType: "Bien. Ve hacia la barricada oeste. Est\xE1 plagado
+          de no-muertos, as\xED que prep\xE1rate. Si perdemos el generador, lo perdemos
+          todo."
+      - LanguageType: 4
+        LanguageGenericType: "Bien. Allez \xE0 la barricade ouest. C'est infest\xE9
+          de morts-vivants, soyez pr\xEAt. Si nous perdons le g\xE9n\xE9rateur, nous
+          perdons tout."
+      AudioClips:
+      - LanguageType: 1
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 2
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 3
+        LanguageGenericType: {fileID: 0}
+      - LanguageType: 4
+        LanguageGenericType: {fileID: 0}
+    DialogueData_Imagess: []
+    DialogueData_Ports: []
+  ChoiceDatas:
+  - NodeGuid: 0d97e2a0-d28f-4b66-93f6-f5ebf29720ad
+    Position: {x: 1435.5, y: 552}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: "What\u2019s my mission, sir"
+    - LanguageType: 2
+      LanguageGenericType: "\u957F\u5B98\uFF0C\u6211\u7684\u4EFB\u52A1\u662F\u4EC0\u4E48\uFF1F"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFCu\xE1l es mi misi\xF3n, se\xF1or?"
+    - LanguageType: 4
+      LanguageGenericType: Quelle est ma mission, monsieur ?
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 985560e3-1e02-4acd-9740-c26a89534ac6
+    Position: {x: 1435.5, y: 264.5}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: What are our chances of survival, General
+    - LanguageType: 2
+      LanguageGenericType: "\u5C06\u519B\uFF0C\u6211\u4EEC\u7684\u751F\u5B58\u51E0\u7387\u6709\u591A\u5927\uFF1F"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFCu\xE1les son nuestras posibilidades de supervivencia,
+        General?"
+    - LanguageType: 4
+      LanguageGenericType: "G\xE9n\xE9ral, quelles sont nos chances de survie ?"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 9916fa84-30a7-4b60-9c52-6aa0264e336e
+    Position: {x: 1435.5, y: 392}
+    ChoiceStateTypes:
+      Value: 2
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: How did this outbreak start
+    - LanguageType: 2
+      LanguageGenericType: "\u8FD9\u6B21\u7206\u53D1\u662F\u600E\u4E48\u5F00\u59CB\u7684\uFF1F"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFC\xF3mo comenz\xF3 este brote?"
+    - LanguageType: 4
+      LanguageGenericType: "Comment cette \xE9pid\xE9mie a-t-elle commenc\xE9 ?"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 7895f448-6f0b-4f9e-8889-05462c7c59ef
+    Position: {x: 2234.5, y: 362.5}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: Is there a cure
+    - LanguageType: 2
+      LanguageGenericType: "\u6709\u6CBB\u7597\u65B9\u6CD5\u5417"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFHay una cura?"
+    - LanguageType: 4
+      LanguageGenericType: "Y a-t-il un rem\xE8de ?"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: e59f0b94-8d72-4f83-91ac-67021e9dbcc8
+    Position: {x: 2220, y: 653}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: "I\u2019ll take care of the shield generator"
+    - LanguageType: 2
+      LanguageGenericType: "\u6211\u6765\u5904\u7406\u62A4\u76FE\u53D1\u751F\u5668\u3002"
+    - LanguageType: 3
+      LanguageGenericType: "Me encargar\xE9 del generador de escudos."
+    - LanguageType: 4
+      LanguageGenericType: "Je m'occupe du g\xE9n\xE9rateur de bouclier."
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 08cc6202-96de-49e5-9d2f-283d4c682fce
+    Position: {x: 2194, y: 54}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: Where can I find the supply drops
+    - LanguageType: 2
+      LanguageGenericType: "\u6211\u5728\u54EA\u91CC\u53EF\u4EE5\u627E\u5230\u8865\u7ED9\u6295\u653E\uFF1F"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFD\xF3nde puedo encontrar los suministros?"
+    - LanguageType: 4
+      LanguageGenericType: "O\xF9 puis-je trouver les largages de fournitures ?"
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 5b64f1ec-96ba-4767-a561-ba9163a75f96
+    Position: {x: 2231.5, y: 498.5}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: "Why didn\u2019t Command see this coming"
+    - LanguageType: 2
+      LanguageGenericType: "\u6307\u6325\u90E8\u4E3A\u4EC0\u4E48\u6CA1\u9884\u89C1\u5230\u8FD9\u4EF6\u4E8B\uFF1F"
+    - LanguageType: 3
+      LanguageGenericType: "\xBFPor qu\xE9 el mando no vio esto venir?"
+    - LanguageType: 4
+      LanguageGenericType: Pourquoi le Commandement n'a-t-il pas vu cela venir ?
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: 89971536-796f-4ccd-8c93-f494eb120eaf
+    Position: {x: 2197, y: -91.5}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: "I\u2019ll help regroup the squads"
+    - LanguageType: 2
+      LanguageGenericType: "\u6211\u4F1A\u5E2E\u52A9\u91CD\u65B0\u96C6\u7ED3\u5C0F\u961F\u3002"
+    - LanguageType: 3
+      LanguageGenericType: "Ayudar\xE9 a reagrupar a los escuadrones."
+    - LanguageType: 4
+      LanguageGenericType: "Je vais aider \xE0 regrouper les \xE9quipes."
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
+  - NodeGuid: a5f97d90-6d1c-4846-9b67-a6f765d3f47f
+    Position: {x: 2236, y: 786}
+    ChoiceStateTypes:
+      Value: 1
+    Text:
+    - LanguageType: 1
+      LanguageGenericType: "I\u2019ll rescue the survivor"
+    - LanguageType: 2
+      LanguageGenericType: "\u6211\u53BB\u6551\u5E78\u5B58\u8005\u3002"
+    - LanguageType: 3
+      LanguageGenericType: Voy a rescatar a los sobrevivientes.
+    - LanguageType: 4
+      LanguageGenericType: Je vais sauver les survivants.
+    AudioClips:
+    - LanguageType: 1
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 2
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 3
+      LanguageGenericType: {fileID: 0}
+    - LanguageType: 4
+      LanguageGenericType: {fileID: 0}
+    EventData_StringConditions: []
